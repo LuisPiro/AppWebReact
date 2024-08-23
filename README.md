@@ -49,7 +49,7 @@ Este proyecto es una aplicación de convertidor de divisas construida con React.
 
 ### Pantalla Principal
 
-![Pantalla Principal](ruta/a/tu/imagen.png)
+![Pantalla Principal](AppImage.png)
 
 ## Contribuciones
 
