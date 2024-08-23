@@ -38,23 +38,6 @@ Este proyecto es una aplicación de convertidor de divisas construida con React.
     npm install
     ```
 
-4. **Configura las variables de entorno**:
-
-    - Crea un archivo `.env` en la raíz del proyecto.
-    - Agrega tu clave de API en el archivo `.env`:
-
-      ```bash
-      REACT_APP_API_KEY=tu_clave_de_api
-      ```
-
-5. **Inicia el servidor de desarrollo**:
-
-    ```bash
-    npm start
-    ```
-
-6. **Abre tu navegador** y ve a `http://localhost:3000`.
-
 ## Uso
 
 1. **Ingresa un monto** en el campo de entrada.
