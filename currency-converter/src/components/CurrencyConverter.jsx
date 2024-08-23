@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import '../styles/CurrencyConverter.css';
 
@@ -16,7 +16,7 @@ const CurrencyConverter = () => {
         { code: 'AUD', name: 'Australian Dollar' },
         { code: 'CAD', name: 'Canadian Dollar' },
         { code: 'CHF', name: 'Swiss Franc' },
-        { code: 'CLP', name: 'Chillean Pesos' }
+        { code: 'CLP', name: 'Chilean Pesos' }
     ];
 
     const handleConversion = async () => {
@@ -28,11 +28,6 @@ const CurrencyConverter = () => {
             console.error('Error fetching conversion data:', error);
         }
     };
-
-    // Effect to handle conversion when amount, fromCurrency, or toCurrency change
-    useEffect(() => {
-        handleConversion();
-    }, [amount, fromCurrency, toCurrency]);
 
     return (
         <div className="currency-converter">
